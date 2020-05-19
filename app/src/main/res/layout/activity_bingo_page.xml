@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    android:background="@drawable/back"
+    android:gravity="fill"
+    app:layout_anchorGravity="fill"
+    android:orientation="vertical"
+    tools:context=".bingoPage">
+
+    <TextView
+        android:id="@+id/bingoTV_title"
+        android:layout_width="481dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="BingoVocab!"
+        android:textColor="#0863A0"
+        android:textSize="36sp"
+        app:fontFamily="@font/aclonica"
+        app:layout_constraintBottom_toTopOf="@+id/mainBTN_newUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/bingo_tv_speaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANIMAL RESPONSE"
+        android:textAlignment="center"
+        android:drawableRight="@drawable/speaker_icon_tt"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="#0863A0"/>
+
+    <GridLayout
+        android:id="@+id/gridofpics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top|center_vertical"
+        android:columnCount="2"
+        android:foregroundGravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/bingo_ib1"
+            android:layout_width="194dp"
+            android:layout_height="155dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawingCacheQuality="low"
+            android:fadeScrollbars="false"
+            android:focusable="auto"
+            android:background="#0000ff"
+            android:layout_marginRight="10dp"
+            android:focusableInTouchMode="false"
+            android:keepScreenOn="true"
+            android:scaleType="fitCenter"
+             />
+
+        <ImageView
+            android:id="@+id/bingo_ib2"
+            android:layout_width="183dp"
+            android:layout_height="155dp"
+            android:adjustViewBounds="true"
+            android:background="#0000ff"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+             />
+
+        <ImageView
+            android:id="@+id/bingo_ib3"
+            android:layout_width="194dp"
+            android:layout_height="142dp"
+            android:background="#0000ff"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            />
+
+        <ImageView
+            android:id="@+id/bingo_ib4"
+            android:layout_width="183dp"
+            android:layout_height="142dp"
+            android:scaleType="fitCenter"
+            android:background="#0000ff"
+            android:padding="10dp"
+             />
+
+        <ImageView
+            android:id="@+id/bingo_ib5"
+            android:layout_width="194dp"
+            android:layout_height="148dp"
+            android:scaleType="fitCenter"
+            android:background="#0000ff"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+             />
+
+        <ImageView
+            android:id="@+id/bingo_ib6"
+            android:layout_width="183dp"
+            android:background="#0000ff"
+            android:padding="10dp"
+            android:layout_height="148dp"
+            android:scaleType="fitCenter"
+            />
+    </GridLayout>
+
+</LinearLayout>
+
+
+

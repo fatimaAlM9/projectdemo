@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".ADMIN_ADD_IMAGES">
+
+    <TextView
+        android:id="@+id/loginTV_title"
+        android:layout_width="379dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="ADD ANIMAL"
+        android:textColor="#0863A0"
+        android:textSize="36sp"
+        app:fontFamily="@font/aclonica"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:id="@+id/aa_img"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/camera"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add visiting card of shop"
+                android:textAlignment="center"
+                android:textColor="#0D47A1"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0D47A1"
+                    android:layout_marginLeft="20dp"
+                    android:text="Animal Name"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14dp"
+                    />
+
+                <EditText
+                    android:id="@+id/aa_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_recangle_box"
+                    android:textColor="#0D47A1"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="#0D47A1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0D47A1"
+                    android:layout_marginLeft="20dp"
+                    android:text="Question To speak in game for this animal"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14dp"
+                    />
+
+                <EditText
+                    android:id="@+id/aa_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_recangle_box"
+                    android:textColor="#0D47A1"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="#0D47A1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0D47A1"
+                    android:layout_marginLeft="20dp"
+                    android:text="Answer to Speak in game for this animal"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14dp"
+                    />
+
+                <EditText
+                    android:id="@+id/aa_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_recangle_box"
+                    android:textColor="#0D47A1"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="#0D47A1"/>
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/aa_add_animal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:background="#83C9FA"
+                android:text="ADD animal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                 />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
