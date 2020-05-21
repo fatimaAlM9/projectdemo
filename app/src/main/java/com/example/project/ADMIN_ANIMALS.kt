@@ -40,7 +40,7 @@ class ADMIN_ANIMALS : AppCompatActivity() {
 //        list.add(ANIMAL_MODEL("1","DOG","0","0","10/10/10"))
 //        list.add(ANIMAL_MODEL("1","CAT","0","1","10/10/10"))
 //        list.add(ANIMAL_MODEL("1","COW","0","0","10/10/10"))
-//        list.add(ANIMAL_MODEL("1","GOAT","0","0","10/10/10"))
+//        list.add(ANIMAL_MODEL("1","Snake","0","0","10/10/10"))
 //        GET_WARN()
 
 

@@ -41,8 +41,7 @@ class ADMIN_ADD_IMAGES : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin__add__images)
 
-
-
+            //aa_img click listener
         aa_img.setOnClickListener {
             //check runtime permission
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
@@ -63,12 +62,13 @@ class ADMIN_ADD_IMAGES : AppCompatActivity() {
                 pickImageFromGallery();
             }
         }
-
+            //aa_add_animal button click listener to add image to database
         aa_add_animal.setOnClickListener {
                 var name = aa_name.text.toString();
                 var question = aa_question.text.toString();
                 var answer = aa_answer.text.toString();
 
+                // if field name, question, answer are empty show alert mssg
             if (name.length == 0 || question.length == 0 || answer.length ==0)
             {
                 MY_ALERT.SET_MY_ALERT(context,"Note " , "Fill All detilas for animal ","Ok")

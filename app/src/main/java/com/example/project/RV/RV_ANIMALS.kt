@@ -90,7 +90,7 @@ val url1 = important_value.ip +"active_deactive_animal.php";
         }
     }
 
-
+    //delete the animal from the list
     fun doLogin(id: String,
                 status: String,
                 postion: Int

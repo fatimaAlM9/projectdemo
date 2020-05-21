@@ -202,10 +202,8 @@ class bingoPage : AppCompatActivity() {
 //                    RV.setAdapter(rv)
 
                     val rand = Random()
-
-// Obtain a number between [0 - 49].
-
-// Obtain a number between [0 - 49].
+                    // randomization of images
+                    // Obtain a number between [0 - 49].
                     val n = rand.nextInt(4)
 
                     if (n==0)
@@ -434,7 +432,7 @@ class bingoPage : AppCompatActivity() {
         VolleySingleton.getInstance(this).addToRequestQueue(stringRequest)
     }
 
-
+// if player is waiting for more than 30 seconds close
     fun main() {
         val mylamda = Thread({
 
@@ -527,7 +525,7 @@ class bingoPage : AppCompatActivity() {
 
     }
 
-    private fun get_randam(n: Int,index_value : Int) : Int
+    private fun get_random(n: Int,index_value : Int) : Int
     {
         var n_plus = n+index_value;
         var modulis = n_plus%6;
@@ -554,7 +552,7 @@ class bingoPage : AppCompatActivity() {
 
     private fun play_question_and_answer(image_current_postion : Int , Img : ImageView)
     {
-//        answer of clieck imge
+//        answer of clicked imges
 
         if (play_game_image_chker_limit <6)
         {
@@ -563,7 +561,7 @@ class bingoPage : AppCompatActivity() {
 //            here is the correct answer of game
 
                 Img.setBackgroundColor(Color.GREEN);
-//            Answer is correct chagen color
+//            Answer is correct change color
                 var answer = list[play_game_image_chker_limit].animal_answer;
                 bingo_tv_speaker.setText(answer)
                 speakerbox.play("Answer : "+answer)
@@ -573,7 +571,7 @@ class bingoPage : AppCompatActivity() {
 
                 if (play_game_image_chker_limit==6)
                 {
-                    MY_ALERT.SET_MY_ALERT_TO_CLOSE(context,"NOTE","GAME COMPELTE","Finish")
+                    MY_ALERT.SET_MY_ALERT_TO_CLOSE(context,"NOTE","YOU WIN!!","Finish")
 
                 }
 

@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_admin__panel.*
 
 class ADMIN_PANEL : AppCompatActivity() {
-
+            //for the user navigating between pages, menu screen for the admin
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin__panel)
