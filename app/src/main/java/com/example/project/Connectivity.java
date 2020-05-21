@@ -7,8 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-
-
+//Rawan Mostafa s00039039
 public class Connectivity {
 
 

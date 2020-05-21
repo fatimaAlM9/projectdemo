@@ -1,5 +1,5 @@
 package com.example.project
-
+//Haniah Al-Tabaa S00038878
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

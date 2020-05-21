@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.activity_new_user.*
 import org.json.JSONException
 import org.json.JSONObject
 import java.util.*
-
+//Haniah Al-Tabaa S00038878
 //import javax.swing.UIManager.put
 
 class newUser : AppCompatActivity() {
